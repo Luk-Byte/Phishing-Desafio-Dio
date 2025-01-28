@@ -3,5 +3,7 @@
 #Ferramentas Utilizadas
 
 Kali Linux
-Terminal Linux
+
+Terminal Linuu
+
 SeToolKit
