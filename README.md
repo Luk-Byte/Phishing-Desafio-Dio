@@ -59,5 +59,7 @@ Após isso, acesse o clone utilizando o IP detectado na etapa anterior.
 
 Quando você realizar o login no site clonado, o terminal exibirá um log extenso. Embora o campo "USERNAME FIELD FOUND" possa não aparecer, o login será mostrado em PARAM: session_key=<usuário digitado>. 
 
-A senha será mostrada em POSSIBLE PASSWORD FIELD FOUND: session_password=<senha digitada>
+A senha será mostrada em POSSIBLE PASSWORD FIELD FOUND: session_password= senha digitada
+
+
 
