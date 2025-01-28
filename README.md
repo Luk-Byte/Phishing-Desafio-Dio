@@ -61,5 +61,5 @@ Quando você realizar o login no site clonado, o terminal exibirá um log extens
 
 A senha será mostrada em POSSIBLE PASSWORD FIELD FOUND: session_password= senha digitada
 
-
+git add Captura de tela 2025-01-27 233846-1.png
 
