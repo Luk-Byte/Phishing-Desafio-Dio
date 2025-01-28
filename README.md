@@ -2,7 +2,9 @@
 
 Neste desafio de projeto, iremos criar um phishing para capturar senhas de login. Contudo, por motivos de segurança, a página indicada (http://www.facebook.com) não permite a coleta de e-mails e senhas. Para completar a tarefa, utilizei a página http://www.linkedin.com/login.
 
-## Propósito Educacional: **Este projeto é exclusivamente para fins de estudo e treinamento em segurança da informação. Não use estas ferramentas para atividades maliciosas.**
+## Propósito Educacional: 
+
+Este projeto é exclusivamente para fins de estudo e treinamento em segurança da informação. Não use estas ferramentas para atividades maliciosas.
 
 ## Ferramentas Utilizadas
 
