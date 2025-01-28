@@ -1,14 +1,8 @@
 # Desafio de Criação de Phishing da DIO
 
-Este projeto tem objetivo **educativo**, conscientizando sobre como é fácil gerar um link falso de phishing, as práticas de phishing e demonstrando a capacidade de gerar esses links, utilizando um ambiente controlado para testes éticos de segurança. **Não é para ser usado de forma maliciosa ou ilegal.**
+Neste desafio de projeto, iremos criar um phishing para capturar senhas de login. Contudo, por motivos de segurança, a página indicada (http://www.facebook.com) não permite a coleta de e-mails e senhas. Para completar a tarefa, utilizei a página http://www.linkedin.com/login.
 
-## Descrição
-
-A ferramenta usada:
-
-- **Social Engineering Toolkit (SeToolKit):** permite a criação de links de phishing e outras funcionalidades, sendo usada aqui para fins educativos.
-
-O projeto é destinado a **profissionais de segurança**, **pesquisadores** e **estudantes** interessados em aprender sobre ameaças de phishing e formas de combatê-las. Os testes serão realizados utilizando apenas **IPs internos**, em um ambiente seguro e controlado.
+## Propósito Educacional: **Este projeto é exclusivamente para fins de estudo e treinamento em segurança da informação. Não use estas ferramentas para atividades maliciosas.**
 
 ## Ferramentas Utilizadas
 
@@ -32,4 +26,37 @@ Certifique-se de que as ferramentas estão instaladas no sistema operacional. Es
 2. Torne-se superusuário:
    ```bash
    sudo su
+
+1. Após se tornar superusuário no terminal, inicie o SetoolKit com o comando:  
+   ```bash
+   setoolkit
+
+2. Selecione a primeira opção no menu:
+
+       Social-Engineering Attacks
+
+3. Escolha a segunda opção:
+
+       Website Attack Vectors
+
+4. Escolha a terceira opção:
+
+       Credential Harvester Attack Method
+
+4. Selecione a segunda opção:
+
+       Site Cloner
+
+Ao ser solicitado o endereço de IP, pressione Enter para que o SEToolkit detecte automaticamente o IP da sua máquina e o configure como padrão.
+
+Digite o link do site que deseja clonar (por exemplo) e pressione Enter:
+
+https://www.linkedin.com/login
+
+Após isso, acesse o clone utilizando o IP detectado na etapa anterior.
+
+Quando você realizar o login no site clonado, o terminal exibirá um log extenso. Embora o campo "USERNAME FIELD FOUND" possa não aparecer, o login será mostrado em PARAM: session_key=<usuário digitado>. 
+
+A senha será mostrada em POSSIBLE PASSWORD FIELD FOUND: session_password=<senha digitada>
+
 
