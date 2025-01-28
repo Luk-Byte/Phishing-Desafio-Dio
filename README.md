@@ -61,9 +61,8 @@ Quando você realizar o login no site clonado, o terminal exibirá um log extens
 
 A senha será mostrada em POSSIBLE PASSWORD FIELD FOUND: session_password= senha digitada
 
-git add Phishing-Desafio-Dio/Captura de tela 2025-01-27 233846-1.png
-git commit -m "Adicionando imagem ao repositório"
-git push origin main
+![1000001586](https://github.com/user-attachments/assets/8162a1e4-e84e-4e10-a99f-1b3880fead29)
+
 
 
 
